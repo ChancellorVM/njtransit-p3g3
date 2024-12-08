@@ -1,0 +1,149 @@
+﻿OBJECTID,LINE_NAME,LINE_ID,URL,Shape__Length
+1,Amboy Secondary,137,,100532.592000015
+2,Atlantic City Line,22,https://www.njtransit.com/var/var_servlet.srv?hdnPageAction=JK8To,357782.827285419
+3,"Avenue ""A"" Run Track",23,,3465.6930026529
+4,Bay Shore Industrial,24,,10142.436458939
+5,Bayonne Industrial Track,14,,1830.24005467294
+6,Bayonne Line,25,,26949.3566979686
+7,Bayway Industrial 1 Track,26,,4080.53177646228
+8,Bayway Industrial Track,27,,8241.10979498686
+9,Beesley's Point Secondary,43,,288459.797273009
+10,Belvedere Del. River RR,28,,87603.6003252619
+11,Bergen County Line,29,https://www.njtransit.com/pdf/rail/R0020.pdf,75771.8302903925
+12,Black River & Western RR,30,,86454.1860637227
+13,Bloodgood Industrial,31,,4039.82531975677
+14,Bloomsbury Branch,21,,40316.0038309538
+15,Bonhamtown Industrial,32,,15121.027596543
+16,Bordentown Secondary Track,7,,661.850662299339
+17,Bound Brook Connection,134,,1101.82448531335
+18,Bridgeton Port Branch,34,,10565.2497250367
+19,Cape May Branch,35,,143119.733632618
+20,Carlton Hill,36,,5846.09846236899
+21,Carteret Branch,37,,7435.6144672762
+22,CC-SIRR Connection,38,,1609.07880746522
+23,Center Street Branch,4,,12782.9094296306
+24,Central District Branch,39,,6777.42053727633
+25,Central Industrial Track,48,,21633.0544249718
+26,Chemical Coast Secondary,45,,76683.7957326622
+27,Chester Branch,46,,44223.1007907471
+28,Middlebrook Branch,47,,10221.2193318114
+29,Constable Hook,107,,5155.76859887573
+30,Constable Hook Industrial,49,,10648.0333389427
+31,Croxton Running Track,53,,12603.5476863905
+32,Deerfield Branch,51,,17150.518068898
+33,Delair Branch,6,,1562.37842718067
+34,Elizabeth Industrial,52,,29438.4096244528
+35,Freehold Secondary,54,,100767.742867736
+36,Garwood Industrial Track,16,,17123.3857051631
+37,Gillespie Run Track,55,,10394.0500908913
+38,Gladstone Line,56,,118521.523911316
+39,"Gloucester Industrial
+",94,,3581.58711894578
+40,Greenville Running Track,57,,18592.0847077545
+41,Grenloch Industrial,58,,20936.2630174511
+42,Reading Connector,172,,4335.59995599797
+43,Toms River Branch,180,,26280.5752819138
+44,HBLRT (West Side Ave),59,,8434.04911292141
+45,High Bridge Branch,60,,78869.0691668952
+46,Hightstown Industrial,61,,30620.8826368444
+47,Hoboken Terminal,62,,4910.9751959846
+48,Hudson-Bergen LRT,63,,78391.0214616478
+49,Hudson Yard,8,,3116.21550769331
+50,Irvington Industrial,64,,14487.5404028499
+51,Kearny Eastbound,20,,2711.50672880944
+52,Kearny Westbound,19,,3312.05251379054
+53,Kingsland Branch,66,,26802.9727625052
+54,Lackawanna Bridge,11,,427.043110736298
+55,Lehigh Line,2,,352355.73064734
+56,Linden Branch,67,,17157.6927461604
+57,Link: Amboy Secondary and N. Jersey Coast Ln (So.),136,,3989.49298499727
+58,"Link: Beesley's Point Branch and Cape May Branch
+",41,,1092.7753693549
+59,Link: Beesley's Point Branch and Southern Industrial,5,,1471.57783136299
+60,Link: Lehigh Line and Northeast Corridor Line,1,,4101.12802929798
+61,Link: NYS&W and NYS&W L&HR,42,,1813.03478420731
+62,Main Line (ST W),69,https://www.njtransit.com/pdf/rail/R0020.pdf,96618.0376481155
+63,Meadows Branch Number 1,70,,14087.604938423
+64,Meadows Branch Number 2,71,,7096.81843116354
+65,Manumuskan Industrial,139,,32586.3374422687
+66,Monmouth Park Seasonal,73,,3265.28092363636
+67,Montclair-Boonton Line,75,https://www.njtransit.com/pdf/rail/R0030.pdf,121693.955203646
+68,Montclair Line,74,https://www.njtransit.com/pdf/rail/R0030.pdf,22208.1112505175
+69,Morristown & Erie RR,76,,59183.2227342094
+70,N. Jersey Coast Ln (Mid),78,,9668.09681576978
+71,N. Jersey Coast Ln (No.),79,,30339.136290426
+72,N. Jersey Coast Ln (So.),80,https://www.njtransit.com/pdf/rail/R0080.pdf,204316.098848831
+73,National Docks Secondary,81,,36141.0141287571
+74,Newark & Elizabeth,133,,6494.63126693965
+75,Newark Branch,83,,18927.1022331059
+76,Newark Industrial Track,84,,48344.5559805298
+77,Newark Light Rail,129,,32927.394768781
+78,Northern Branch,141,,23397.3247447298
+79,Northern Running Track,86,,81683.1338659762
+80,NY & Greenwood Lake RR,88,,6788.08214476274
+81,NYS&W,89,,313518.134730391
+82,NYS&W L&HR,91,,100603.326764548
+83,NYS&W Lodi Branch,90,,9194.57913135221
+84,NYS&W Passaic Branch,92,,7353.33015660536
+85,NYS&W Pompton Spur,93,,34793.8398107254
+86,Orange Branch,10,,18991.6678870641
+87,Passaic & Harsimus Branch,96,,44458.6593087536
+88,PATCO,97,,66519.2807778431
+89,PATH System,98,,46539.0709793821
+90,PATH System (EB),99,,5429.84728374068
+91,PATH System (NB),100,,7893.86637576472
+92,Paulsboro Industrial,101,,5483.83639879826
+93,Pavonia Yard Running Tracks,135,,20173.9324052457
+94,Pemberton Branch,102,,72380.1263326789
+95,Penns Grove Secondary,124,,129047.667261836
+96,Perth Amboy Running Track,104,,37260.4504067308
+97,Perth Amboy Running Trk 2,105,,16964.0847483498
+98,Pier 18 Lead,65,,3516.37665199608
+99,Pleasantville Industrial,106,,28593.8787974144
+100,Port Ave. Branch,15,,921.299731877978
+101,Port Reading Secondary,108,,10503.2419926935
+102,Portland Secondary,112,,37326.9303503321
+103,Portside Industrial Track,82,,17147.1113878637
+104,Princeton Branch,109,https://www.njtransit.com/pdf/rail/R0070.pdf,14762.6292946607
+105,Raritan Industrial,115,,34189.631251597
+106,Reformatory Secondary,117,,9687.0345274605
+107,River Line,118,,98753.2287508441
+108,River LINE Light Rail,50,,163849.347369796
+109,River Line Passenger,111,,27772.3591023475
+110,River Line Terminal Tracks,40,,954.132548667743
+111,Robbinsville Industrial,119,,27961.5712074341
+112,Rockaway Branch,120,,32456.1086877073
+113,Swede Industrial,187,,96324.4623158741
+114,Sayreville Secondary,13,,57876.7809859284
+115,Seashore Line,121,,31362.0991887492
+116,Shell Industrial,122,,13422.4195662239
+117,Sound Shore Industrial,123,,16149.6240042831
+118,Southern Main Line,140,,136901.147737902
+119,Southern Secondary,125,,216485.28692421
+120,"Susquehanna ""American Bridge"" Flyover",113,,5768.32868922335
+121,Third Branch,17,,4744.60679780368
+122,Totowa Spur,127,,16892.9508318063
+123,Travis Branch,12,,24674.9911317067
+124,Trenton Industrial Track,128,,16406.807046014
+125,Vineland Secondary,72,,172028.432918265
+126,Waterfront Connection (Reverse Kearny),3,,2252.04099877138
+127,West End Wye,18,,1192.95305087858
+128,Boonton Line,33,,46043.8635622638
+129,Port Reading Secondary,108,,90297.6647407991
+130,Raritan Valley Line,116,https://www.njtransit.com/pdf/rail/R0060.pdf,270455.162041088
+131,Salem Branch,103,,53798.1443963143
+132,Millville Industrial,189,,35710.1373716665
+133,Southern Running Track,44,,83478.4942839211
+134,Lackawanna Cutoff Wye,190,,1071.22670302675
+135,Lackawanna Cutoff,9,,144135.440460408
+136,Southern Secondary,191,,127876.48756674
+137,Staten Island RR,126,,39380.5178752405
+138,Washington Secondary,87,,118469.959148103
+139,Morristown Line,77,https://www.njtransit.com/pdf/rail/R0060.pdf,321960.981068662
+140,Vineland Industrial,188,,17858.3261886593
+141,Manville Branch,185,,2983.04852063779
+142,Services Branch,192,,7977.24413480073
+143,Main Line,68,https://www.njtransit.com/pdf/rail/R0020.pdf,399715.856277161
+144,Northeast Corridor Line,85,https://www.njtransit.com/pdf/rail/R0070.pdf,311594.463740455
+145,Pascack Valley Line,95,https://www.njtransit.com/pdf/rail/R0010.pdf,125273.531647447
+146,West Trenton Line,130,,140597.336007002
