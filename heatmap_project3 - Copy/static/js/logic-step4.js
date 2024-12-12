@@ -1,7 +1,7 @@
 // Creating the map object
 let myMap = L.map("map", {
   center: [40.0583, -74.4057],
-  zoom: 7
+  zoom: 8.49888
 });
 
 // Adding the tile layer
@@ -19,10 +19,10 @@ d3.json(geoData).then(function(data) {
   let geojson = L.choropleth(data, {
 
     // Define which property in the features to use.
-    populationDensity: "POPDEN2020",
+    valueProperty: "POPDEN2020",
 
     // Set the color scale.
-    scale: ["#ffffb2", "#b10026"],
+    scale: ["#c3ff00", "#ff0000"],
 
     // The number of breaks in the step range
     steps: 10,
@@ -31,7 +31,7 @@ d3.json(geoData).then(function(data) {
     mode: "q",
     style: {
       // Border color
-      color: "#fff",
+      color: "#050505",
       weight: 1,
       fillOpacity: 0.8
     },
@@ -52,7 +52,7 @@ d3.json(geoData).then(function(data) {
     let labels = [];
 
     // Add the minimum and maximum.
-    let legendInfo = "<h1>Polulation Density<br />(2020)</h1>" +
+    let legendInfo = "<h1>Population Density: <br />(2020)</h1>" +
       "<div class=\"labels\">" +
         "<div class=\"min\">" + limits[0] + "</div>" +
         "<div class=\"max\">" + limits[limits.length - 1] + "</div>" +
