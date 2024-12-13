@@ -8,12 +8,11 @@ let myMap = L.map("map", {
   zoom: 7
 });
 
-// Add the tile layer
+// Add the tile layers
 let street = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
   attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
 }).addTo(myMap);
 
-// Additional base layer
 let topo = L.tileLayer('https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png', {
   attribution: 'Map data: &copy; <a href="https://www.openstreetmap.org">OpenStreetMap</a>, &copy; <a href="https://opentopomap.org">OpenTopoMap</a>'
 });
@@ -21,24 +20,25 @@ let topo = L.tileLayer('https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png', {
 // Define base maps
 let baseMaps = {
   "Street Map": street,
+  "Topographic Map": topo
 };
+
+// Initialize layers for toggling
+let stationsLayer;
+let choroplethLayer;
 
 // Load and add stations layer
 d3.json(stationsQueryUrl).then(function(data) {
-  let stations = L.geoJSON(data.features, {
+  stationsLayer = L.geoJSON(data.features, {
     onEachFeature: function(feature, layer) {
       layer.bindPopup('<b>Station: </b>' + feature.properties.STATION_ID);
     }
   });
-
-  overlayMaps.Stations = stations;
-  stations.addTo(myMap); // Add stations to map
 });
 
 // Load and add choropleth layer
-let overlayMaps = {};
 d3.json(geoDataUrl).then(function(data) {
-  let geojson = L.choropleth(data, {
+  choroplethLayer = L.choropleth(data, {
     valueProperty: "POPDEN2020",
     scale: ["#ffffb2", "#b10026"],
     steps: 10,
@@ -53,15 +53,12 @@ d3.json(geoDataUrl).then(function(data) {
     }
   });
 
-  overlayMaps["Population Density"] = geojson;
-  geojson.addTo(myMap);
-
   // Add legend for choropleth
   let legend = L.control({ position: "bottomright" });
   legend.onAdd = function() {
     let div = L.DomUtil.create("div", "info legend");
-    let limits = geojson.options.limits;
-    let colors = geojson.options.colors;
+    let limits = choroplethLayer.options.limits;
+    let colors = choroplethLayer.options.colors;
     let labels = [];
 
     let legendInfo = "<h1>Population Density<br />(2020)</h1>" +
@@ -82,7 +79,40 @@ d3.json(geoDataUrl).then(function(data) {
   legend.addTo(myMap);
 });
 
-// Add layer controls
-L.control.layers(baseMaps, overlayMaps, {
-  collapsed: false
-}).addTo(myMap);
+// Add selector for toggling layers
+let selectorContainer = document.createElement("div");
+selectorContainer.style.position = "absolute";
+selectorContainer.style.top = "10px";
+selectorContainer.style.right = "10px";
+selectorContainer.style.background = "white";
+selectorContainer.style.padding = "10px";
+selectorContainer.style.borderRadius = "5px";
+selectorContainer.style.boxShadow = "0 2px 4px rgba(0, 0, 0, 0.3)";
+selectorContainer.style.zIndex = "1000";
+
+selectorContainer.innerHTML = `
+  <label><input type="checkbox" id="toggleMarkers"> Show Stations</label><br>
+  <label><input type="checkbox" id="toggleChoropleth"> Show Population Density</label>
+`;
+
+document.body.appendChild(selectorContainer);
+
+// Toggle functionality
+let toggleMarkers = document.getElementById("toggleMarkers");
+let toggleChoropleth = document.getElementById("toggleChoropleth");
+
+toggleMarkers.addEventListener("change", function() {
+  if (toggleMarkers.checked) {
+    if (stationsLayer) myMap.addLayer(stationsLayer);
+  } else {
+    if (stationsLayer) myMap.removeLayer(stationsLayer);
+  }
+});
+
+toggleChoropleth.addEventListener("change", function() {
+  if (toggleChoropleth.checked) {
+    if (choroplethLayer) myMap.addLayer(choroplethLayer);
+  } else {
+    if (choroplethLayer) myMap.removeLayer(choroplethLayer);
+  }
+});
