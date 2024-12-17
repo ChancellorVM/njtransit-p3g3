@@ -12,6 +12,21 @@ NJ Municipalities: https://njogis-newjersey.opendata.arcgis.com/datasets/1c6b26a
 NJ Railroads Map: https://njogis-newjersey.opendata.arcgis.com/datasets/NJDOT::railroads-network/explore?layer=1
 
 
+# Introduction
+
+New Jersey is the most densely populated state in America, and it far exceeds the second and third most densely populated states in total population. New Jersey is also a global economic powerhouse, with a GDP rivaling Poland and a GDP Per Capita higher than the Netherlands. These factors mean that New Jersey deserves a genuine world-class regional rail network.
+
+While NJ Transit is superior to many rail networks in the U.S., it falls well short of being the world-class regional rail network it could be. 
+
+With this project, we identify gaps in NJ Transit’s current commuter rail system and opportunities to expand along existing freight rail corridors, highlighting the moment the State has to greatly impact tens of thousands of residents' freedom of movement across their communities. This becomes paramount to unlocking previously geographically and socioeconomically gatekept labor markets and avenues of commerce.
+
+We collected, cleaned, stored, analyzed, and visualized NJ Transit Data Courtesy of the New Jersey Geographic Information Network (NJGIN) Open Data portal to cross-examine the following questions:
+1. What does NJ Transit’s current rail service look like?
+2. What are the ideal conditions for a municipality to have a station?
+3. Where are the gaps in the current NJ Transit map?
+4. What municipalities would be good candidates for expansion?
+5. What could an expanded NJ Transit look like?
+
 
 # Part 1: Visualize Current NJ Transit Rail Service
 The first step was to look at what NJ Transit's current Commuter Rail service looked like and ascertain important information such as which municipality the stations were located in and what the population of these municipalities was. This information is displayed below:
@@ -159,8 +174,62 @@ The Lehigh Line would follow its namesake from Phillipsburg to Bound Brook, wher
 *Lambertville Line*
 
 - Lambertville
-- Bethlehem Township
+- Flemington Borough
 - Readington Township
 - Hillsborough Township
 - Manville Borough
 - Bound Brook Borough
+
+The Lambertville Line would be another spur off of the Raritan Valley Line but would connect to the tourist towns of Lambertville and New Hope.
+
+*West Trenton Line*
+
+- Ewing/West Trenton Station
+- Ewing/TTN-TCNJ Station
+- Pennington Borough
+- Hopewell Borough
+- Montgomery Township
+- Hillsborough Township
+- Manville Borough
+- Bound Brook Borough
+
+One final spur of the Raritan Valley Line would connect Bound Brook to the current West Trenton SEPTA station in Ewing, while also providing access to Trenton-Mercer Airport and The College of New Jersey, also in Ewing.
+
+
+**Central Jersey Expansion**
+
+*Middlesex-Ocean-Monmouth Line*
+
+- Winslow Township
+- Manchester Township
+- Lakehurst Borough
+- Lakewood Township
+- Farmingdale Borough
+- Freehold Borough
+- Manalapan Township
+- Monroe Township
+- Jamesburg Borough
+- South Brunswick Township
+
+This line would take a potential Winslow Township station on the Atlantic City Line and connect it through the highly populated municipalities of Ocean and Monmouth Counties before eventually joining with the Northeast Corridor in South Brunswick Township. With this line, some of the most populous towns in New Jersey will have better access not just to New York City, but their own state's flagship public university.
+
+
+**South Jersey Expansion**
+
+*Cape May Line*
+
+- Cape May
+- Lower Township
+- Middle Township
+- Upper Township
+- Buena Vista Township
+- Winslow Township
+
+With this line, it will be possible to travel from the southern tip of the state to the northern portion, while accessing most of the major universities and the Big Apple. Riders from the north will also gain easier access to the beauty of New Jersey's Southern Coast.
+
+
+# Part 5: Benefits and Conclusion
+
+This plan is beneficial for the people of New Jersey because it increases their connectivity to the rest of the state. It also reduces car dependency, as more people can commute to work via NJ Transit than before.
+
+Further steps could include retooling the NJ Transit Bus Network around the rail stations to expand the catchment area of each station. The network could also be expanded by building new lines in the medians of Highways - particularly in the median of US-195 and US-287. Integration could also be expanded through the transfer of PATH from the Port Authority to NJ Transit, allowing for better integration of the lines and stations into the NJ Transit Network.
