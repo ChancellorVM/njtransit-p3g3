@@ -91,7 +91,7 @@ d3.json(railNetworkUrl).then(function(data) {
       weight: 2
     },
     onEachFeature: function(feature, layer) {
-      layer.bindPopup('<strong>Railroad:</strong> ' + (feature.properties.NAME || 'Unknown'));
+      layer.bindPopup('<strong>Railroad:</strong> ' + feature.properties.LINE_NAME);
     }
   });
 }).catch(function(error) {
@@ -106,7 +106,7 @@ d3.json(transitLinesUrl).then(function(data) {
       weight: 2
     },
     onEachFeature: function(feature, layer) {
-      layer.bindPopup('<strong>Rail Line:</strong> ' + (feature.properties.NAME || 'Unknown'));
+      layer.bindPopup('<strong>Rail Line:</strong> ' + feature.properties.LINE_NAME);
     }
   });
 }).catch(function(error) {
