@@ -14,10 +14,18 @@ NJ Railroads Map: https://njogis-newjersey.opendata.arcgis.com/datasets/NJDOT::r
 
 # Part 1: Visualize Current NJ Transit Rail Service
 
-
+![alt text](https://github.com/ChancellorVM/njtransit-p3g3/blob/main/Images/VIS1.PNG)
 
 # Part 2: Identify Gaps in Service
+![alt text](https://github.com/ChancellorVM/njtransit-p3g3/blob/main/Images/VIS2_STATIONS.PNG)
 
+![alt text](https://github.com/ChancellorVM/njtransit-p3g3/blob/main/Images/VIS2_POPDENS.PNG)
 
+![alt text](https://github.com/ChancellorVM/njtransit-p3g3/blob/main/Images/VIS2_TOTALPOP.PNG)
 
+![alt text](https://github.com/ChancellorVM/njtransit-p3g3/blob/main/Images/VIS2_RAILROADS.PNG)
+
+![alt text](https://github.com/ChancellorVM/njtransit-p3g3/blob/main/Images/VIS2_RAILLINES.PNG)
+
+![alt text](https://github.com/ChancellorVM/njtransit-p3g3/blob/main/Images/VIS2_TOTAL.PNG)
 # Part 3: Visualize Expnasion
